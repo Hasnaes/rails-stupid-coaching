@@ -1,0 +1,14 @@
+<h1>Stupid Coaching </h1>
+<div style="width: 50%">
+<div id="question" class="alert alert-light" style="font-family: 'Raleway', sans-serif;">
+<%# <p style="font-size: 50px">?</p> %>
+  <strong><%= params[:question].upcase %></strong>
+  <p> - You </p>
+</div>
+
+<div id="answer" class="alert alert-secondary" style="font-family: 'Raleway', sans-serif;">
+<%# <p style="font-size: 50px">✉️</p> %>
+  <strong><%= params[:action].upcase %></strong>
+    <p> - Your Coach </p>
+</div>
+</div>
